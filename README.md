@@ -1,22 +1,23 @@
-#mini-rag
+# mini-rag
 this is a minimal implementation of the rag model for question answering
 
-## Requirments
+## Requirements
 
-python 3.8 or later
+python 3.10 or later
 
 ### Install Python using MiniConda
 
 1. Download and install MiniConda from here
 2. Create a new environment using the following command:
 
-$. conda create -n mini-rag python=3.8 
+$ conda create -n mini-rag-app1 python=3.10 
 
 3. Activate the environment:
 
-$ conda activate mini-rag
+$ conda activate mini-rag-app1
 
 ### (optional) setup your commandline interface for better readability
 
-'''bash
+​```bash
 export PS1="\[\033[01;32m\]\u@\h:\w\n[\033[00m]\$"
+​```
