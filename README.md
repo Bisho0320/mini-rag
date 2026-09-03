@@ -36,3 +36,7 @@ $ pip install -r requirements.txt
  ```
 
  set your enviroment variables in the `.env` file. `OPENAI_API_KEY` value .
+
+ ```bash
+ $ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+ ```
